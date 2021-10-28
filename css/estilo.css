@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bodyIndex {
+  background-image: url(/img/fondo4.jpg);
+  background-attachment: fixed;
+}
+
+.bg-light2 {
+  background-color: white;
+}
+
+a:link, a:hover, a:visited, a:active a {
+  text-decoration: none;
+  color: black;
+}
+
+.redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 3px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.main {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "lista main__subtitulo" "gridImg gridImg";
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+}
+
+.main__subtitulo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: main__subtitulo;
+}
+
+.lista {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: lista;
+}
+
+.grid__Img {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: gridImg;
+}
+
+.main__subtitulo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: main__subtitulo;
+  border: 3px solid;
+  background-color: #df91dd;
+}
+
+.main__subtitulo--h2 {
+  color: rgba(0, 0, 0, 0.878);
+  letter-spacing: 1px;
+  font-weight: 900;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.main__subtitulo--p {
+  color: rgba(0, 0, 0, 0.878);
+  letter-spacing: 1px;
+  font-weight: 900;
+  padding: 10px;
+}
+
+.productos {
+  border: 3px solid;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+  background-color: #df91dd;
+}
+
+.productos__lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.productos__lista--pagina {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+}
+
+.productos__lista--pagina:hover {
+  background-color: #e752e2;
+}
+
+.imagenes__Bolson {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+}
+
+.imagenes__Bolson:hover {
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+}
+
+.imagenes__Bolson--promo {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bolder;
+  font-size: 20px;
+  border: 2px solid;
+}
+
+footer p {
+  text-align: right;
+}
+
+.item-1 {
+  width: 2em;
+}
+
+.item-2 {
+  width: 4em;
+}
+
+.item-3 {
+  width: 6em;
+}
+/*# sourceMappingURL=estilo.css.map */
